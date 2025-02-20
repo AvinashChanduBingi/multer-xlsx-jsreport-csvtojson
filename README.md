@@ -4,6 +4,6 @@ Multer – For handling file uploads
 
 XLSX – For reading and writing Excel files
 
-JSReport – For generating reports in different formats (PDF, Excel, etc.)
+JSReport – For generating reports in different formats (PDF)
 
 csvtojson – For converting CSV data into JSON format
