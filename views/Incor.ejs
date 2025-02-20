@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:3009/one.css">
+    <title>Document</title>
+</head>
+<body>
+   <div  class="header">
+   <img src="http://localhost:3009/Incor.png" alt="" class="logo" id="logo">
+   <h1 class="companyName" id="companyName">
+    <%=data.companyName%>
+   </h1>
+   </div>
+   <div class="body">
+    <p>
+       <h1> **Invoice for Salary Payment**  </h1>
+
+This invoice is issued for the payment of salary for the month of <%=data.year+","+data.month%> to <%=data.name%>, holding the position of <%=data.jobTitle%> at <%=data.companyName%>. The total amount payable is <%="rs "+data.salary%>, covering the agreed-upon compensation, including any applicable benefits, allowances, and deductions as per the company policy.  
+
+The payment will be processed via  Bank Transfer to the account details provided by the employee. Please ensure that the payment is completed by <%=data.dueDate%> to maintain compliance with the payroll schedule.  
+
+For any queries regarding this invoice, kindly contact the finance department.
+    </p>
+   </div>
+   <div class="footer">
+    <p>
+        For any inquiries, please contact our finance department .
+        Thank you for your dedication and hard work!</p>
+   </div>
+</body>
+</html>
